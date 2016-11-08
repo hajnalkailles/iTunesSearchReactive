@@ -1,0 +1,22 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
+options: "16004befa12f6753844b8bcf79d237b0"
+build_time: [531931179, 956874000]
+inputs:
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Action.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Atomic.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Bag.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/CocoaAction.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Disposable.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/DynamicProperty.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Event.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/EventLogger.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Flatten.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/FoundationExtensions.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/ObjectiveCBridging.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Observer.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Optional.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Property.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Scheduler.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Signal.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/SignalProducer.swift": [531503230, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Swift/TupleExtensions.swift": [531503230, 0]

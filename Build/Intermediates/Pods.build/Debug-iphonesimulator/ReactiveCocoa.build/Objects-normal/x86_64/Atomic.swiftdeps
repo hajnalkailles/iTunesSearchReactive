@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Atomic"
+provides-nominal:
+- "C13ReactiveCocoa6Atomic"
+provides-member:
+- ["C13ReactiveCocoa6Atomic", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- !private "assert"
+- !private "pthread_mutex_destroy"
+- !private "UnicodeScalarType"
+- !private "pthread_mutex_lock"
+- !private "=="
+- !private "IntegerLiteralType"
+- !private "pthread_mutex_unlock"
+- "Atomic"
+- !private "pthread_mutex_init"
+- "pthread_mutex_t"
+depends-member:
+- !private ["Ps9AnyObject", "_value"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "modify"]
+- !private ["Ps9AnyObject", "mutex"]
+- !private ["Ps9AnyObject", "pthread_mutex_destroy"]
+- !private ["Ps9AnyObject", "pthread_mutex_init"]
+- !private ["Ps9AnyObject", "pthread_mutex_lock"]
+- ["Ps9AnyObject", "pthread_mutex_t"]
+- !private ["Ps9AnyObject", "pthread_mutex_unlock"]
+- !private ["Ps9AnyObject", "unlock"]
+- !private ["Ps9AnyObject", "withValue"]
+- ["Ps9AnyObject", ""]
+- ["C13ReactiveCocoa6Atomic", "Value"]
+- !private ["C13ReactiveCocoa6Atomic", "_value"]
+- !private ["C13ReactiveCocoa6Atomic", "assert"]
+- ["C13ReactiveCocoa6Atomic", "deinit"]
+- ["C13ReactiveCocoa6Atomic", "init"]
+- !private ["C13ReactiveCocoa6Atomic", "lock"]
+- ["C13ReactiveCocoa6Atomic", "modify"]
+- !private ["C13ReactiveCocoa6Atomic", "mutex"]
+- !private ["C13ReactiveCocoa6Atomic", "pthread_mutex_destroy"]
+- !private ["C13ReactiveCocoa6Atomic", "pthread_mutex_init"]
+- !private ["C13ReactiveCocoa6Atomic", "pthread_mutex_lock"]
+- ["C13ReactiveCocoa6Atomic", "pthread_mutex_t"]
+- !private ["C13ReactiveCocoa6Atomic", "pthread_mutex_unlock"]
+- ["C13ReactiveCocoa6Atomic", "swap"]
+- !private ["C13ReactiveCocoa6Atomic", "unlock"]
+- ["C13ReactiveCocoa6Atomic", "value"]
+- ["C13ReactiveCocoa6Atomic", "withValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "init"]
+- ["VSC23_opaque_pthread_mutex_t", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ReactiveCocoa6Atomic"
+- !private "Sb"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16OutputStreamType"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+- "VSC23_opaque_pthread_mutex_t"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextView+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextField+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewHeaderFooterView+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewCell+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISwitch+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIStepper+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISlider+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISegmentedControl+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIRefreshControl+RACCommandSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIImagePickerController+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIGestureRecognizer+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIDatePicker+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UICollectionReusableView+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIButton+RACCommandSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIAlertView+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIActionSheet+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/ReactiveCocoa-Bridging-Header.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACValueTransformer.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnit.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnarySequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTupleSequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTuple.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTestScheduler.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTargetQueueScheduler.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptionScheduler.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptingAssignmentTrampoline.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStringSequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignalSequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal+Operations.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSerialDisposable.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScopedDisposable.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReturnSignal.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReplaySubject.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler+Subclass.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler+Subclass.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACPassthroughSubscriber.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACMulticastConnection.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOTrampoline.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOProxy.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOChannel.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACIndexSetSequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACImmediateScheduler.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACGroupedSignal.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEvent.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACErrorSignal.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEagerSequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSignal.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicPropertySuperclass.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDelegateProxy.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDisposable.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposable.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACChannel.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBlockTrampoline.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubject.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBehaviorSubject.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACArraySequence.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSUserDefaults+RACSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSURLConnection+RACSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSequenceAdditions.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACKeyPathUtilities.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSSet+RACSequenceAdditions.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSOrderedSet+RACSequenceAdditions.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACSelectorSignal.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACPropertySubscribing.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACLifting.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACKVOWrapper.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDeallocating.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSNotificationCenter+RACSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSInvocation+RACTypeParsing.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSIndexSet+RACSequenceAdditions.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSFileHandle+RACSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSEnumerator+RACSequenceAdditions.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSDictionary+RACSequenceAdditions.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSData+RACSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSArray+RACSequenceAdditions.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/MKAnnotationView+RACSignalSupport.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTScope.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/metamacros.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTKeyPathCoding.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-umbrella.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "4d2b23fc607a821825b27e5312b3cb55"
