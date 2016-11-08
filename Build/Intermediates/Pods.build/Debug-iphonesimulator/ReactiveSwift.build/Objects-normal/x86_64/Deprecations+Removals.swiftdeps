@@ -1,0 +1,560 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ActionType"
+- "SignalType"
+- "SignalProducerType"
+- "PropertyType"
+- "MutablePropertyType"
+- "ObserverType"
+- "SchedulerType"
+- "DateSchedulerType"
+- "OptionalType"
+- "EventLoggerType"
+- "EventType"
+- "AnyProperty"
+- "ConstantProperty"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "combineLatest"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+- "zip"
+provides-nominal:
+- "O13ReactiveSwift10ActionType"
+- "O13ReactiveSwift10SignalType"
+- "O13ReactiveSwift18SignalProducerType"
+- "O13ReactiveSwift12PropertyType"
+- "O13ReactiveSwift19MutablePropertyType"
+- "O13ReactiveSwift12ObserverType"
+- "O13ReactiveSwift13SchedulerType"
+- "O13ReactiveSwift17DateSchedulerType"
+- "O13ReactiveSwift12OptionalType"
+- "O13ReactiveSwift15EventLoggerType"
+- "O13ReactiveSwift9EventType"
+- "V13ReactiveSwift11AnyProperty"
+- "V13ReactiveSwift16ConstantProperty"
+provides-member:
+- ["O13ReactiveSwift10ActionType", ""]
+- ["O13ReactiveSwift10SignalType", ""]
+- ["O13ReactiveSwift18SignalProducerType", ""]
+- ["O13ReactiveSwift12PropertyType", ""]
+- ["O13ReactiveSwift19MutablePropertyType", ""]
+- ["O13ReactiveSwift12ObserverType", ""]
+- ["O13ReactiveSwift13SchedulerType", ""]
+- ["O13ReactiveSwift17DateSchedulerType", ""]
+- ["O13ReactiveSwift12OptionalType", ""]
+- ["O13ReactiveSwift15EventLoggerType", ""]
+- ["O13ReactiveSwift9EventType", ""]
+- ["V13ReactiveSwift11AnyProperty", ""]
+- ["V13ReactiveSwift16ConstantProperty", ""]
+- ["P13ReactiveSwift10Disposable", ""]
+- ["P13ReactiveSwift14ActionProtocol", ""]
+- ["O13ReactiveSwift5Event", ""]
+- ["O13ReactiveSwift11ActionError", ""]
+- ["O13ReactiveSwift15FlattenStrategy", ""]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", ""]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", ""]
+- ["V13ReactiveSwift3Bag", ""]
+- ["C13ReactiveSwift19CompositeDisposable", ""]
+- ["C13ReactiveSwift8Observer", ""]
+- ["P13ReactiveSwift16ObserverProtocol", ""]
+- ["P13ReactiveSwift14SignalProtocol", ""]
+- ["P13ReactiveSwift22SignalProducerProtocol", ""]
+- ["V13ReactiveSwift14SignalProducer", ""]
+- ["P13ReactiveSwift16PropertyProtocol", ""]
+- ["C13ReactiveSwift8Property", ""]
+- ["P13ReactiveSwift21DateSchedulerProtocol", ""]
+- ["C13ReactiveSwift13TestScheduler", ""]
+- ["C13ReactiveSwift14QueueScheduler", ""]
+- ["CSo18NotificationCenter", ""]
+- ["CSo10URLSession", ""]
+- ["P13ReactiveSwift10Disposable", "disposed"]
+- ["P13ReactiveSwift14ActionProtocol", "enabled"]
+- ["P13ReactiveSwift14ActionProtocol", "executing"]
+- ["O13ReactiveSwift5Event", "Next"]
+- ["O13ReactiveSwift5Event", "Failed"]
+- ["O13ReactiveSwift5Event", "Completed"]
+- ["O13ReactiveSwift5Event", "Interrupted"]
+- ["O13ReactiveSwift11ActionError", "ProducerError"]
+- ["O13ReactiveSwift11ActionError", "NotEnabled"]
+- ["O13ReactiveSwift15FlattenStrategy", "Latest"]
+- ["O13ReactiveSwift15FlattenStrategy", "Concat"]
+- ["O13ReactiveSwift15FlattenStrategy", "Merge"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Next"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Completed"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Failed"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Terminated"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Disposed"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Interrupted"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Started"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Next"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Completed"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Failed"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Terminated"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Disposed"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Interrupted"]
+- ["V13ReactiveSwift3Bag", "removeValueForToken"]
+- ["C13ReactiveSwift19CompositeDisposable", "addDisposable"]
+- ["C13ReactiveSwift8Observer", "init"]
+- ["P13ReactiveSwift16ObserverProtocol", "sendNext"]
+- ["P13ReactiveSwift16ObserverProtocol", "sendFailed"]
+- ["P13ReactiveSwift14SignalProtocol", "take"]
+- ["P13ReactiveSwift14SignalProtocol", "takeLast"]
+- ["P13ReactiveSwift14SignalProtocol", "skip"]
+- ["P13ReactiveSwift14SignalProtocol", "observeOn"]
+- ["P13ReactiveSwift14SignalProtocol", "combineLatestWith"]
+- ["P13ReactiveSwift14SignalProtocol", "zipWith"]
+- ["P13ReactiveSwift14SignalProtocol", "takeUntil"]
+- ["P13ReactiveSwift14SignalProtocol", "takeUntilReplacement"]
+- ["P13ReactiveSwift14SignalProtocol", "skipUntil"]
+- ["P13ReactiveSwift14SignalProtocol", "skipWhile"]
+- ["P13ReactiveSwift14SignalProtocol", "takeWhile"]
+- ["P13ReactiveSwift14SignalProtocol", "timeoutWithError"]
+- ["P13ReactiveSwift14SignalProtocol", "observeNext"]
+- ["P13ReactiveSwift14SignalProtocol", "ignoreNil"]
+- ["P13ReactiveSwift14SignalProtocol", "observeNext"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "take"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeLast"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "skip"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "observeOn"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "startOn"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "combineLatestWith"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "combineLatestWith"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "zipWith"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "zipWith"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeUntil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeUntil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeUntilReplacement"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeUntilReplacement"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "skipUntil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "skipUntil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "skipWhile"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeWhile"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "timeoutWithError"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "startWithNext"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "ignoreNil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "startWithNext"]
+- ["V13ReactiveSwift14SignalProducer", "buffer"]
+- ["P13ReactiveSwift16PropertyProtocol", "combineLatestWith"]
+- ["P13ReactiveSwift16PropertyProtocol", "zipWith"]
+- ["C13ReactiveSwift8Property", "init"]
+- ["C13ReactiveSwift8Property", "init"]
+- ["P13ReactiveSwift21DateSchedulerProtocol", "scheduleAfter"]
+- ["P13ReactiveSwift21DateSchedulerProtocol", "scheduleAfter"]
+- ["C13ReactiveSwift13TestScheduler", "advanceByInterval"]
+- ["C13ReactiveSwift13TestScheduler", "advanceToDate"]
+- ["C13ReactiveSwift14QueueScheduler", "mainQueueScheduler"]
+- ["CSo18NotificationCenter", "rac_notifications"]
+- ["CSo10URLSession", "rac_data"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Signal"
+- "Event"
+- !private "StringLiteralType"
+- "ActionType"
+- "RemovalToken"
+- "Notification"
+- "MutablePropertyType"
+- "OptionalProtocol"
+- "OptionalType"
+- "SignalProtocol"
+- "Date"
+- "Data"
+- "LoggingEvent"
+- "Disposable"
+- "PropertyType"
+- "URLResponse"
+- "SignalProducerProtocol"
+- "Void"
+- "CompositeDisposable"
+- "URLRequest"
+- "DateSchedulerType"
+- "PropertyProtocol"
+- "Observer"
+- "QueueScheduler"
+- "ObserverProtocol"
+- "combineLatest"
+- "URLSession"
+- "SchedulerType"
+- "AnyProperty"
+- "SignalProducerType"
+- "ActionError"
+- "Int"
+- "NSError"
+- "EventType"
+- "FlattenStrategy"
+- "zip"
+- "Bool"
+- "NotificationCenter"
+- "AnyObject"
+- "Property"
+- "ActionProtocol"
+- !private "fatalError"
+- "SignalProducer"
+- "NoError"
+- "SchedulerProtocol"
+- "TestScheduler"
+- "SignalType"
+- "TimeInterval"
+- "ObserverType"
+- "Sequence"
+- "EventLoggerType"
+- "Bag"
+- "UIScheduler"
+- "ConstantProperty"
+- "DateSchedulerProtocol"
+depends-member:
+- ["O13ReactiveSwift11ActionError", "ActionError"]
+- ["O13ReactiveSwift11ActionError", "NotEnabled"]
+- ["O13ReactiveSwift11ActionError", "ProducerError"]
+- !private ["O13ReactiveSwift11ActionError", "fatalError"]
+- ["P13ReactiveSwift14ActionProtocol", "Bool"]
+- ["P13ReactiveSwift14ActionProtocol", "enabled"]
+- ["P13ReactiveSwift14ActionProtocol", "executing"]
+- !private ["P13ReactiveSwift14ActionProtocol", "fatalError"]
+- ["Ps9AnyObject", "Observer"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "rac_data"]
+- ["Ps9AnyObject", "rac_notifications"]
+- ["V13ReactiveSwift11AnyProperty", "init"]
+- ["V13ReactiveSwift3Bag", "RemovalToken"]
+- !private ["V13ReactiveSwift3Bag", "fatalError"]
+- ["V13ReactiveSwift3Bag", "removeValueForToken"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Bool"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "fatalError"]
+- !private ["Ps7CVarArg", "fatalError"]
+- ["Ps7CVarArg", "rac_data"]
+- ["Ps7CVarArg", "rac_notifications"]
+- !private ["Ps10Collection", "fatalError"]
+- ["C13ReactiveSwift19CompositeDisposable", "Disposable"]
+- ["C13ReactiveSwift19CompositeDisposable", "DisposableHandle"]
+- ["C13ReactiveSwift19CompositeDisposable", "addDisposable"]
+- !private ["C13ReactiveSwift19CompositeDisposable", "fatalError"]
+- ["V13ReactiveSwift16ConstantProperty", "init"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "rac_data"]
+- ["Ps28CustomDebugStringConvertible", "rac_notifications"]
+- ["Ps17CustomReflectable", "Name"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "rac_data"]
+- ["Ps23CustomStringConvertible", "rac_notifications"]
+- ["P13ReactiveSwift21DateSchedulerProtocol", "Date"]
+- ["P13ReactiveSwift21DateSchedulerProtocol", "Disposable"]
+- ["P13ReactiveSwift21DateSchedulerProtocol", "TimeInterval"]
+- ["P13ReactiveSwift21DateSchedulerProtocol", "Void"]
+- !private ["P13ReactiveSwift21DateSchedulerProtocol", "fatalError"]
+- ["P13ReactiveSwift21DateSchedulerProtocol", "scheduleAfter"]
+- ["P13ReactiveSwift10Disposable", "Bool"]
+- ["P13ReactiveSwift10Disposable", "disposed"]
+- !private ["P13ReactiveSwift10Disposable", "fatalError"]
+- ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "rac_data"]
+- ["Ps9Equatable", "rac_notifications"]
+- !private ["Ps5Error", "fatalError"]
+- ["O13ReactiveSwift5Event", "Completed"]
+- ["O13ReactiveSwift5Event", "Error"]
+- ["O13ReactiveSwift5Event", "Event"]
+- ["O13ReactiveSwift5Event", "Failed"]
+- ["O13ReactiveSwift5Event", "Interrupted"]
+- ["O13ReactiveSwift5Event", "Next"]
+- ["O13ReactiveSwift5Event", "Value"]
+- !private ["O13ReactiveSwift5Event", "fatalError"]
+- !private ["P13ReactiveSwift13EventProtocol", "fatalError"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["O13ReactiveSwift15FlattenStrategy", "Concat"]
+- ["O13ReactiveSwift15FlattenStrategy", "FlattenStrategy"]
+- ["O13ReactiveSwift15FlattenStrategy", "Latest"]
+- ["O13ReactiveSwift15FlattenStrategy", "Merge"]
+- !private ["O13ReactiveSwift15FlattenStrategy", "fatalError"]
+- ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "rac_data"]
+- ["Ps8Hashable", "rac_notifications"]
+- !private ["Ps9Indexable", "fatalError"]
+- !private ["Ps13IndexableBase", "fatalError"]
+- ["O13ReactiveSwift12LoggingEvent", "Signal"]
+- ["O13ReactiveSwift12LoggingEvent", "SignalProducer"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NoError"]
+- ["CSo8NSObject", "Notification"]
+- ["CSo8NSObject", "SignalProducer"]
+- ["CSo8NSObject", "URLRequest"]
+- ["CSo8NSObject", "URLResponse"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "rac_data"]
+- ["CSo8NSObject", "rac_notifications"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "rac_data"]
+- ["PSo16NSObjectProtocol", "rac_notifications"]
+- ["Os5Never", "deinit"]
+- ["V10Foundation12Notification", "Name"]
+- ["CSo18NotificationCenter", "AnyObject"]
+- ["CSo18NotificationCenter", "NoError"]
+- ["CSo18NotificationCenter", "Notification"]
+- ["CSo18NotificationCenter", "SignalProducer"]
+- !private ["CSo18NotificationCenter", "fatalError"]
+- ["CSo18NotificationCenter", "rac_notifications"]
+- ["C13ReactiveSwift8Observer", "Error"]
+- ["C13ReactiveSwift8Observer", "Value"]
+- ["C13ReactiveSwift8Observer", "Void"]
+- !private ["C13ReactiveSwift8Observer", "fatalError"]
+- ["C13ReactiveSwift8Observer", "init"]
+- ["P13ReactiveSwift16ObserverProtocol", "Error"]
+- ["P13ReactiveSwift16ObserverProtocol", "Value"]
+- !private ["P13ReactiveSwift16ObserverProtocol", "fatalError"]
+- ["P13ReactiveSwift16ObserverProtocol", "sendFailed"]
+- ["P13ReactiveSwift16ObserverProtocol", "sendNext"]
+- !private ["Sq", "deinit"]
+- ["C13ReactiveSwift8Property", "NoError"]
+- ["C13ReactiveSwift8Property", "Signal"]
+- ["C13ReactiveSwift8Property", "SignalProducer"]
+- ["C13ReactiveSwift8Property", "Value"]
+- !private ["C13ReactiveSwift8Property", "fatalError"]
+- ["C13ReactiveSwift8Property", "init"]
+- ["P13ReactiveSwift16PropertyProtocol", "Property"]
+- ["P13ReactiveSwift16PropertyProtocol", "PropertyProtocol"]
+- ["P13ReactiveSwift16PropertyProtocol", "Value"]
+- ["P13ReactiveSwift16PropertyProtocol", "combineLatestWith"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "fatalError"]
+- ["P13ReactiveSwift16PropertyProtocol", "zipWith"]
+- ["C13ReactiveSwift14QueueScheduler", "QueueScheduler"]
+- !private ["C13ReactiveSwift14QueueScheduler", "fatalError"]
+- ["C13ReactiveSwift14QueueScheduler", "mainQueueScheduler"]
+- !private ["Ps16RawRepresentable", "fatalError"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "fatalError"]
+- ["P10Foundation20ReferenceConvertible", "Name"]
+- ["P13ReactiveSwift17SchedulerProtocol", "Date"]
+- ["P13ReactiveSwift17SchedulerProtocol", "Disposable"]
+- ["P13ReactiveSwift17SchedulerProtocol", "TimeInterval"]
+- ["P13ReactiveSwift17SchedulerProtocol", "Void"]
+- !private ["P13ReactiveSwift17SchedulerProtocol", "fatalError"]
+- !private ["Ps8Sequence", "fatalError"]
+- ["C13ReactiveSwift6Signal", "Observer"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Completed"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Disposed"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Failed"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Interrupted"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "LoggingEvent"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Next"]
+- ["OO13ReactiveSwift12LoggingEvent6Signal", "Terminated"]
+- !private ["OO13ReactiveSwift12LoggingEvent6Signal", "fatalError"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Completed"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Disposed"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Failed"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Interrupted"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "LoggingEvent"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Next"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Started"]
+- ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "Terminated"]
+- !private ["OO13ReactiveSwift12LoggingEvent14SignalProducer", "fatalError"]
+- ["V13ReactiveSwift14SignalProducer", "Error"]
+- ["V13ReactiveSwift14SignalProducer", "Int"]
+- ["V13ReactiveSwift14SignalProducer", "Signal"]
+- ["V13ReactiveSwift14SignalProducer", "SignalProducer"]
+- ["V13ReactiveSwift14SignalProducer", "Value"]
+- ["V13ReactiveSwift14SignalProducer", "buffer"]
+- !private ["V13ReactiveSwift14SignalProducer", "fatalError"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Bool"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Disposable"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Error"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Int"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "NoError"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "OptionalProtocol"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "SchedulerProtocol"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Signal"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "SignalProducer"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "TimeInterval"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "UIScheduler"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Value"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Void"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "combineLatestWith"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "fatalError"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "ignoreNil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "observeOn"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "skip"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "skipUntil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "skipWhile"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "startOn"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "startWithNext"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "take"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeLast"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeUntil"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeUntilReplacement"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "takeWhile"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "timeoutWithError"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "zipWith"]
+- ["P13ReactiveSwift14SignalProtocol", "Bool"]
+- ["P13ReactiveSwift14SignalProtocol", "Disposable"]
+- ["P13ReactiveSwift14SignalProtocol", "Error"]
+- ["P13ReactiveSwift14SignalProtocol", "Int"]
+- ["P13ReactiveSwift14SignalProtocol", "NoError"]
+- ["P13ReactiveSwift14SignalProtocol", "Observer"]
+- ["P13ReactiveSwift14SignalProtocol", "OptionalProtocol"]
+- ["P13ReactiveSwift14SignalProtocol", "SchedulerProtocol"]
+- ["P13ReactiveSwift14SignalProtocol", "Signal"]
+- ["P13ReactiveSwift14SignalProtocol", "SignalProducer"]
+- ["P13ReactiveSwift14SignalProtocol", "SignalProtocol"]
+- ["P13ReactiveSwift14SignalProtocol", "TimeInterval"]
+- ["P13ReactiveSwift14SignalProtocol", "UIScheduler"]
+- ["P13ReactiveSwift14SignalProtocol", "Value"]
+- ["P13ReactiveSwift14SignalProtocol", "Void"]
+- ["P13ReactiveSwift14SignalProtocol", "combineLatestWith"]
+- !private ["P13ReactiveSwift14SignalProtocol", "fatalError"]
+- ["P13ReactiveSwift14SignalProtocol", "ignoreNil"]
+- ["P13ReactiveSwift14SignalProtocol", "observeNext"]
+- ["P13ReactiveSwift14SignalProtocol", "observeOn"]
+- ["P13ReactiveSwift14SignalProtocol", "skip"]
+- ["P13ReactiveSwift14SignalProtocol", "skipUntil"]
+- ["P13ReactiveSwift14SignalProtocol", "skipWhile"]
+- ["P13ReactiveSwift14SignalProtocol", "take"]
+- ["P13ReactiveSwift14SignalProtocol", "takeLast"]
+- ["P13ReactiveSwift14SignalProtocol", "takeUntil"]
+- ["P13ReactiveSwift14SignalProtocol", "takeUntilReplacement"]
+- ["P13ReactiveSwift14SignalProtocol", "takeWhile"]
+- ["P13ReactiveSwift14SignalProtocol", "timeoutWithError"]
+- ["P13ReactiveSwift14SignalProtocol", "zipWith"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["C13ReactiveSwift13TestScheduler", "Date"]
+- ["C13ReactiveSwift13TestScheduler", "TimeInterval"]
+- ["C13ReactiveSwift13TestScheduler", "advanceByInterval"]
+- ["C13ReactiveSwift13TestScheduler", "advanceToDate"]
+- !private ["C13ReactiveSwift13TestScheduler", "fatalError"]
+- ["Su", "deinit"]
+- ["CSo10URLSession", "Data"]
+- ["CSo10URLSession", "NSError"]
+- ["CSo10URLSession", "SignalProducer"]
+- ["CSo10URLSession", "URLRequest"]
+- ["CSo10URLSession", "URLResponse"]
+- !private ["CSo10URLSession", "fatalError"]
+- ["CSo10URLSession", "rac_data"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "rac_data"]
+- ["Ps9_Hashable", "rac_notifications"]
+- ["Ps21_ObjectiveCBridgeable", "Name"]
+depends-nominal:
+- "O13ReactiveSwift11ActionError"
+- "P13ReactiveSwift14ActionProtocol"
+- "Ps9AnyObject"
+- "V13ReactiveSwift11AnyProperty"
+- "V13ReactiveSwift3Bag"
+- "P13ReactiveSwift21BindingTargetProtocol"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "C13ReactiveSwift19CompositeDisposable"
+- "V13ReactiveSwift16ConstantProperty"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "P13ReactiveSwift21DateSchedulerProtocol"
+- "P13ReactiveSwift10Disposable"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "O13ReactiveSwift5Event"
+- !private "P13ReactiveSwift13EventProtocol"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O13ReactiveSwift15FlattenStrategy"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "O13ReactiveSwift12LoggingEvent"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Os5Never"
+- "V10Foundation12Notification"
+- "CSo18NotificationCenter"
+- "C13ReactiveSwift8Observer"
+- "P13ReactiveSwift16ObserverProtocol"
+- !private "Sq"
+- "C13ReactiveSwift8Property"
+- "P13ReactiveSwift16PropertyProtocol"
+- "C13ReactiveSwift14QueueScheduler"
+- !private "Ps16RawRepresentable"
+- !private "P13ReactiveSwift26ReactiveExtensionsProvider"
+- "P10Foundation20ReferenceConvertible"
+- "P13ReactiveSwift17SchedulerProtocol"
+- !private "Ps8Sequence"
+- "C13ReactiveSwift6Signal"
+- "OO13ReactiveSwift12LoggingEvent6Signal"
+- "OO13ReactiveSwift12LoggingEvent14SignalProducer"
+- "V13ReactiveSwift14SignalProducer"
+- "P13ReactiveSwift22SignalProducerProtocol"
+- "P13ReactiveSwift14SignalProtocol"
+- "Vs12StaticString"
+- "C13ReactiveSwift13TestScheduler"
+- "Su"
+- "CSo10URLSession"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "5b536f44195fd08fcfe82908b89f2391"

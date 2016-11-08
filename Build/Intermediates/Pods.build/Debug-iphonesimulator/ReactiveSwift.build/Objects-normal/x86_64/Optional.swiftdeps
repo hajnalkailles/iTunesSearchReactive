@@ -1,0 +1,93 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OptionalProtocol"
+provides-nominal:
+- "P13ReactiveSwift16OptionalProtocol"
+- "Sq"
+provides-member:
+- ["P13ReactiveSwift16OptionalProtocol", ""]
+- ["Sq", ""]
+- ["P13ReactiveSwift14SignalProtocol", ""]
+- ["P13ReactiveSwift22SignalProducerProtocol", ""]
+- ["P13ReactiveSwift14SignalProtocol", "optionalize"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "optionalize"]
+provides-dynamic-lookup:
+depends-top-level:
+- "SignalProducerProtocol"
+- "SignalProducer"
+- "OptionalProtocol"
+- "AssignmentPrecedence"
+- "SignalProtocol"
+- "Signal"
+- "Optional"
+depends-member:
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "optionalize"]
+- ["Ps28CustomDebugStringConvertible", "Wrapped"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "optional"]
+- ["Ps17CustomReflectable", "Wrapped"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "optional"]
+- ["Ps23ExpressibleByNilLiteral", "Wrapped"]
+- ["Ps23ExpressibleByNilLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "optional"]
+- ["Sq", "Wrapped"]
+- ["Sq", "deinit"]
+- ["Sq", "init"]
+- ["Sq", "optional"]
+- ["P13ReactiveSwift16OptionalProtocol", "Wrapped"]
+- ["P13ReactiveSwift16OptionalProtocol", "init"]
+- ["P13ReactiveSwift16OptionalProtocol", "optional"]
+- ["P13ReactiveSwift16OptionalProtocol", ""]
+- !private ["C13ReactiveSwift6Signal", "Error"]
+- !private ["C13ReactiveSwift6Signal", "Value"]
+- ["C13ReactiveSwift6Signal", "deinit"]
+- !private ["C13ReactiveSwift6Signal", "optionalize"]
+- ["V13ReactiveSwift14SignalProducer", "deinit"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Error"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "SignalProducer"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Value"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "lift"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "optionalize"]
+- ["P13ReactiveSwift14SignalProtocol", "Error"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Optional"]
+- ["P13ReactiveSwift14SignalProtocol", "Signal"]
+- ["P13ReactiveSwift14SignalProtocol", "Value"]
+- !private ["P13ReactiveSwift14SignalProtocol", "map"]
+- ["P13ReactiveSwift14SignalProtocol", "optionalize"]
+- ["Ps21_ObjectiveCBridgeable", "Wrapped"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "optional"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23ExpressibleByNilLiteral"
+- "Sq"
+- "P13ReactiveSwift16OptionalProtocol"
+- "C13ReactiveSwift6Signal"
+- "V13ReactiveSwift14SignalProducer"
+- "P13ReactiveSwift22SignalProducerProtocol"
+- "P13ReactiveSwift14SignalProtocol"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "a194a59c1d1dd561f2f5ffdd9a7d5a71"

@@ -1,0 +1,17 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
+options: "2610faa598fd499aa76fb227cc0502b1"
+build_time: [531930067, 819346000]
+inputs:
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/RACObserve.swift": [509145720, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/iTunesSearchViewModel.swift": [531930066, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/Constants.swift": [531842109, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/iTunesSearchResultTableViewController.swift": [531845556, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/RACSignal+Extensions.swift": [509145720, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/iTunesSearchViewController.swift": [531930060, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/NavigationService.swift": [531794944, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/iTunesSearchResultViewModel.swift": [531916901, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/RAC.swift": [531837599, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/iTunesJsonData.swift": [531833342, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/AppDelegate.swift": [531917279, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/iTunesResult.swift": [531830389, 0]
+  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/iTunesSearchReactive/iTunesSearchService.swift": [531910502, 0]
