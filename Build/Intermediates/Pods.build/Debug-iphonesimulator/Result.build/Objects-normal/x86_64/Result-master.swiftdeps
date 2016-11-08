@@ -1,6 +1,0 @@
-version: "Apple Swift version 2.3 (swiftlang-800.10.13 clang-800.0.42.1)"
-options: "52e684a62c98eb2e17bbd28217f513e1"
-build_time: [531931176, 533451000]
-inputs:
-  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Result/Result/Result.swift": [531503230, 0]
-  "/Users/hajnalkahegyi/Developer/ReactiveCocoa/iTunesSearchReactive/Pods/Result/Result/ResultType.swift": [531503230, 0]
