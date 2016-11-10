@@ -16,7 +16,6 @@ class iTunesSearchViewController : UIViewController {
     
     @IBOutlet weak var searchTermTextfield: UITextField!
     @IBOutlet weak var limitTextfield: UITextField!
-    @IBOutlet weak var otherTextfield: UITextField!
     @IBOutlet weak var searchButton: UIButton!
     
     required convenience init(coder aDecoder: NSCoder) {
@@ -42,7 +41,6 @@ class iTunesSearchViewController : UIViewController {
     private func bindViewModel() {
         searchTermTextfield.rac_textSignal() ~> RAC(self.searchViewModel, "searchTerm")
         limitTextfield.rac_textSignal() ~> RAC(self.searchViewModel, "limit")
-        otherTextfield.rac_textSignal() ~> RAC(self.searchViewModel, "other")
         
         searchViewModel.validSearchSignal?.subscribeNext{ valid in
             let isSignalValid = valid as! Bool
@@ -52,11 +50,6 @@ class iTunesSearchViewController : UIViewController {
         searchViewModel.validLimitSignal?.subscribeNext{ valid in
             let isSignalValid = valid as! Bool
             self.limitTextfield.backgroundColor = self.backgroundColorForValidState(isSignalValid)
-        }
-        
-        searchViewModel.validOtherSignal?.subscribeNext{ valid in
-            let isSignalValid = valid as! Bool
-            self.otherTextfield.backgroundColor = self.backgroundColorForValidState(isSignalValid)
         }
         
         searchButton.rac_command = searchViewModel.executeSearch

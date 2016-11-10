@@ -34,20 +34,18 @@ class iTunesSearchResultTableViewController : UITableViewController, UISearchBar
         super.viewDidLoad()
         
         self.tableView.tableFooterView = UIView(frame:CGRectZero)
-        self.filterBar.delegate = self
         self.bindViewModel()
     }
 
     private func bindViewModel() {
         self.rac_signalForSelector(#selector(UISearchBarDelegate.searchBar(_:textDidChange:))) ~> RAC(self.resultViewModel, "filteringTuple")
         
+        // delegate needs to be set after rac_signalForSelector is called or we need an empty implementation of the selector otherwise
+        self.filterBar.delegate = self
+        
         resultViewModel.filterSignal?.subscribeNext{ _ in
             self.tableView.reloadData()
         }
-    }
-    
-    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
-        "Filtering..."
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

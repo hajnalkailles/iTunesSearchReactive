@@ -54,30 +54,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eQL-dH-i5v">
-                                <rect key="frame" x="16" y="212" width="343" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggb-gv-BQR">
-                                <rect key="frame" x="16" y="183" width="343" height="21"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ggb-gv-BQR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="04Q-YT-vco"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GIt-B3-cCS" secondAttribute="trailing" id="05X-jH-VkZ"/>
                             <constraint firstItem="GBL-vV-vqO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0oy-rn-nSJ"/>
-                            <constraint firstItem="eQL-dH-i5v" firstAttribute="top" secondItem="Ggb-gv-BQR" secondAttribute="bottom" constant="8" id="5Ro-hC-AQs"/>
-                            <constraint firstItem="Ggb-gv-BQR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="6Yl-rQ-2fu"/>
                             <constraint firstItem="7LT-Vs-z1e" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7o0-fK-Cme"/>
                             <constraint firstAttribute="trailing" secondItem="GBL-vV-vqO" secondAttribute="trailing" id="8Of-0C-8cz"/>
                             <constraint firstItem="GIt-B3-cCS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9gV-6t-lIK"/>
-                            <constraint firstItem="Ggb-gv-BQR" firstAttribute="top" secondItem="wd2-nE-XyV" secondAttribute="bottom" constant="15" id="CGa-UW-kdS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iqf-je-cu1" secondAttribute="trailing" id="CJe-bh-05D"/>
                             <constraint firstItem="wd2-nE-XyV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="FU0-w9-ANa"/>
                             <constraint firstItem="7LT-Vs-z1e" firstAttribute="top" secondItem="iqf-je-cu1" secondAttribute="bottom" constant="15" id="Fm4-uo-3LQ"/>
@@ -86,8 +70,6 @@
                             <constraint firstItem="wd2-nE-XyV" firstAttribute="top" secondItem="7LT-Vs-z1e" secondAttribute="bottom" constant="8" id="Tsa-eR-OST"/>
                             <constraint firstItem="GIt-B3-cCS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="VLu-Qn-ffb"/>
                             <constraint firstItem="iqf-je-cu1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dFk-tJ-B3S"/>
-                            <constraint firstItem="eQL-dH-i5v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ii1-gi-5OX"/>
-                            <constraint firstItem="eQL-dH-i5v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="jP1-yc-lBp"/>
                             <constraint firstItem="iqf-je-cu1" firstAttribute="top" secondItem="GIt-B3-cCS" secondAttribute="bottom" constant="8" id="uP5-mt-N1Q"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GBL-vV-vqO" secondAttribute="bottom" id="vA5-mu-xpJ"/>
                         </constraints>
@@ -95,7 +77,6 @@
                     <navigationItem key="navigationItem" title="iTunes Search Parameters" id="hcN-Co-ieR"/>
                     <connections>
                         <outlet property="limitTextfield" destination="wd2-nE-XyV" id="67p-Mk-aUQ"/>
-                        <outlet property="otherTextfield" destination="eQL-dH-i5v" id="ffu-G3-QjF"/>
                         <outlet property="searchButton" destination="GBL-vV-vqO" id="f3B-hW-fKv"/>
                         <outlet property="searchTermTextfield" destination="iqf-je-cu1" id="fKD-Fn-xPF"/>
                     </connections>
@@ -122,18 +103,18 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8km-Ma-d85" id="mjV-Y9-mQs">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ber-cL-kTC">
-                                            <rect key="frame" x="15" y="4" width="34" height="21"/>
+                                            <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aad-2T-M5K">
-                                            <rect key="frame" x="15" y="25" width="44" height="15"/>
+                                            <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>

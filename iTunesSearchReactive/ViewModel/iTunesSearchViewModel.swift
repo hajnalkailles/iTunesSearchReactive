@@ -17,7 +17,6 @@ class iTunesSearchViewModel : NSObject {
     var executeSearch : RACCommand?
     var validSearchSignal : RACSignal?
     var validLimitSignal : RACSignal?
-    var validOtherSignal : RACSignal?
     
     private let searchService: iTunesSearchService
     private let navigationService : NavigationService
@@ -35,10 +34,6 @@ class iTunesSearchViewModel : NSObject {
         validLimitSignal = RACObserve(self, keyPath: "limit").map{ _ in
             return self.isLimitValid()
         }.distinctUntilChanged()
-        
-        validOtherSignal = RACObserve(self, keyPath: "other").map{ _ in
-            return self.isOtherValid()
-            }.distinctUntilChanged()
         
         let combinedSignal = RACSignalEx.combineLatestAs([validSearchSignal!, validLimitSignal!]) {
             (searchTerm:Bool, limit:Bool) in

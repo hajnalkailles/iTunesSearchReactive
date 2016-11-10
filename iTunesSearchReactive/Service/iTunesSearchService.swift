@@ -13,10 +13,6 @@ class iTunesSearchService : NSObject, NSURLSessionDataDelegate {
     
     var searchText : String = ""
     
-    func URLSession(session: NSURLSession, dataTask: NSURLSessionDataTask, didReceiveData data: NSData) {
-        print("Did receive data...")
-    }
-    
     func iTunesSearchSignal(searchTerm: String, limit: Int) -> RACSignal {
         self.searchText = searchTerm
         return signalFromRequest(iTunesSearchUrlPrefix + iTunesSearchUrlParameterTerm + searchTerm + "&" + iTunesSearchUrlParameterLimit + String(limit), transform: transformData);
