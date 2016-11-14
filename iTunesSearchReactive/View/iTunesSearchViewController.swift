@@ -17,6 +17,7 @@ class iTunesSearchViewController : UIViewController {
     @IBOutlet weak var searchTermTextfield: UITextField!
     @IBOutlet weak var limitTextfield: UITextField!
     @IBOutlet weak var searchButton: UIButton!
+    @IBOutlet weak var activityIndicator: UIView!
     
     required convenience init(coder aDecoder: NSCoder) {
         self.init(aDecoder)
@@ -51,6 +52,8 @@ class iTunesSearchViewController : UIViewController {
             let isSignalValid = valid as! Bool
             self.limitTextfield.backgroundColor = self.backgroundColorForValidState(isSignalValid)
         }
+        
+        searchViewModel.executeSearch!.executing.not() ~> RAC(self.activityIndicator, "activityIndicator")
         
         searchButton.rac_command = searchViewModel.executeSearch
     }

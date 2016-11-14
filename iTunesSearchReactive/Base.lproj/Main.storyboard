@@ -54,20 +54,45 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z78-vW-T1o">
+                                <rect key="frame" x="8" y="268" width="359" height="130"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mG0-Um-9xf">
+                                        <rect key="frame" x="142.5" y="26" width="75" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="qRe-L5-lpL">
+                                        <rect key="frame" x="169" y="55" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="qRe-L5-lpL" firstAttribute="centerX" secondItem="Z78-vW-T1o" secondAttribute="centerX" id="TF8-Xh-vUc"/>
+                                    <constraint firstItem="qRe-L5-lpL" firstAttribute="top" secondItem="mG0-Um-9xf" secondAttribute="bottom" constant="8" id="VhK-8Z-DiI"/>
+                                    <constraint firstItem="qRe-L5-lpL" firstAttribute="centerY" secondItem="Z78-vW-T1o" secondAttribute="centerY" id="WLN-Iy-2ui"/>
+                                    <constraint firstAttribute="height" constant="130" id="YpE-yV-s0h"/>
+                                    <constraint firstItem="mG0-Um-9xf" firstAttribute="centerX" secondItem="Z78-vW-T1o" secondAttribute="centerX" id="owk-u8-S3I"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="GIt-B3-cCS" secondAttribute="trailing" id="05X-jH-VkZ"/>
                             <constraint firstItem="GBL-vV-vqO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0oy-rn-nSJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Z78-vW-T1o" secondAttribute="trailing" constant="8" id="10K-Cl-lHt"/>
                             <constraint firstItem="7LT-Vs-z1e" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7o0-fK-Cme"/>
                             <constraint firstAttribute="trailing" secondItem="GBL-vV-vqO" secondAttribute="trailing" id="8Of-0C-8cz"/>
                             <constraint firstItem="GIt-B3-cCS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9gV-6t-lIK"/>
+                            <constraint firstItem="Z78-vW-T1o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="BUT-jN-Qkk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iqf-je-cu1" secondAttribute="trailing" id="CJe-bh-05D"/>
                             <constraint firstItem="wd2-nE-XyV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="FU0-w9-ANa"/>
                             <constraint firstItem="7LT-Vs-z1e" firstAttribute="top" secondItem="iqf-je-cu1" secondAttribute="bottom" constant="15" id="Fm4-uo-3LQ"/>
                             <constraint firstItem="wd2-nE-XyV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JCa-x3-xWo"/>
                             <constraint firstItem="7LT-Vs-z1e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Or9-OO-G4d"/>
                             <constraint firstItem="wd2-nE-XyV" firstAttribute="top" secondItem="7LT-Vs-z1e" secondAttribute="bottom" constant="8" id="Tsa-eR-OST"/>
+                            <constraint firstItem="Z78-vW-T1o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TuN-57-DJ0"/>
                             <constraint firstItem="GIt-B3-cCS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="VLu-Qn-ffb"/>
                             <constraint firstItem="iqf-je-cu1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dFk-tJ-B3S"/>
                             <constraint firstItem="iqf-je-cu1" firstAttribute="top" secondItem="GIt-B3-cCS" secondAttribute="bottom" constant="8" id="uP5-mt-N1Q"/>
@@ -76,6 +101,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="iTunes Search Parameters" id="hcN-Co-ieR"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="Z78-vW-T1o" id="Pm5-U1-VtJ"/>
                         <outlet property="limitTextfield" destination="wd2-nE-XyV" id="67p-Mk-aUQ"/>
                         <outlet property="searchButton" destination="GBL-vV-vqO" id="f3B-hW-fKv"/>
                         <outlet property="searchTermTextfield" destination="iqf-je-cu1" id="fKD-Fn-xPF"/>
