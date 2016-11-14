@@ -53,7 +53,7 @@ class iTunesSearchViewController : UIViewController {
             self.limitTextfield.backgroundColor = self.backgroundColorForValidState(isSignalValid)
         }
         
-        searchViewModel.executeSearch!.executing.not() ~> RAC(self.activityIndicator, "activityIndicator")
+        searchViewModel.executeSearch!.executing.not() ~> RAC(self.activityIndicator, "hidden")
         
         searchButton.rac_command = searchViewModel.executeSearch
     }
