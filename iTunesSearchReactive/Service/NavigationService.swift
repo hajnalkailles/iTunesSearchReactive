@@ -22,10 +22,10 @@ class NavigationService: NSObject {
         self.navigationController = navigationController
     }
     
-    func pushViewWithModel(resultModel : iTunesResult) {
+    func pushViewWithModel(model : iTunesResult) {
         let storyBoard : UIStoryboard = UIStoryboard(name: mainStoryboardName, bundle:nil)
         let nextViewController = storyBoard.instantiateViewControllerWithIdentifier(resultTableViewIdentifier) as! iTunesSearchResultTableViewController
-        nextViewController.resultViewModel?.resultModel = resultModel
+        nextViewController.resultViewModel?.resultModel = model
         self.navigationController.pushViewController(nextViewController, animated: true)
     }
 }

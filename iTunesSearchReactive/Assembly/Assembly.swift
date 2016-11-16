@@ -21,7 +21,7 @@ class Assembly: TyphoonAssembly {
                 initializer.injectParameterWith(resultTableViewIdentifier)
             }
             
-            definition.injectProperty("resultViewModel", with:self.extendedResultViewModel())
+            definition.injectProperty("resultViewModel", with:self.resultViewModel())
         }
     }
     

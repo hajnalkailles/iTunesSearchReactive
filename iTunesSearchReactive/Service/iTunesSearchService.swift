@@ -35,10 +35,10 @@ class iTunesSearchService : NSObject, NSURLSessionDataDelegate {
             for resultDictionary in resultArray as! [NSDictionary] {
                 guard
                     let artistName = resultDictionary[jsonTagArtistName] as? String,
-                    let mediaTypeName = resultDictionary[jsonTagKind] as? String,
-                    let trackName = resultDictionary[jsonTagTrackName] as? String
+                    let trackName = resultDictionary[jsonTagTrackName] as? String,
+                    let genreName = resultDictionary[jsonTagGenreName] as? String
                 else { break }
-                appendingItem = iTunesJsonData(artistName: artistName, mediaType: mediaTypeName, trackName: trackName)
+                appendingItem = iTunesJsonData(artistName: artistName, trackName: trackName, genreName: genreName)
                 resultList.insert(appendingItem)
             }
 

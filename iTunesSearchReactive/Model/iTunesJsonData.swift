@@ -11,24 +11,24 @@ import UIKit
 class iTunesJsonData: Equatable, Hashable {
 
     let artistName : String
-    let mediaType : String
     let trackName : String
+    let genreName : String
     
     init() {
         self.artistName = ""
-        self.mediaType = ""
         self.trackName = ""
+        self.genreName = ""
     }
     
-    init(artistName: String, mediaType: String, trackName: String) {
+    init(artistName: String, trackName: String, genreName: String) {
         self.artistName = artistName
-        self.mediaType = mediaType
         self.trackName = trackName
+        self.genreName = genreName
     }
 
     var hashValue: Int {
         get {
-            return "\(artistName),\(mediaType),\(trackName)".hashValue
+            return "\(artistName),\(trackName),\(genreName)".hashValue
         }
     }
 }

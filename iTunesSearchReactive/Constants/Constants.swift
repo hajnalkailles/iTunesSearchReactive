@@ -20,5 +20,5 @@ let iTunesSearchUrlParameterLimit = "limit="
 
 let jsonTagResults = "results"
 let jsonTagArtistName = "artistName"
-let jsonTagKind = "kind"
 let jsonTagTrackName = "trackName"
+let jsonTagGenreName = "primaryGenreName"

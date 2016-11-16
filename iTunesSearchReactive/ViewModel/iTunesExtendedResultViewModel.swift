@@ -13,7 +13,8 @@ class iTunesExtendedResultViewModel: iTunesAbstractResultViewModel {
     override func filterResults(searchText : String) {
         var filteredResults = Set<iTunesJsonData>()
         for object in resultModel.jsonDataObject {
-            if (object.trackName.lowercaseString .containsString(searchText.lowercaseString)) {
+            let titleString = object.artistName + " - " + object.trackName
+            if (titleString.lowercaseString .containsString(searchText.lowercaseString)) {
                 filteredResults.insert(object)
             }
         }
@@ -26,10 +27,10 @@ class iTunesExtendedResultViewModel: iTunesAbstractResultViewModel {
     }
     
     override func cellTitle(index: Int) -> String {
-        return listToShow[index].trackName
+        return listToShow[index].artistName + " - " + listToShow[index].trackName
     }
     
     override func cellSubtitle(index: Int) -> String {
-        return listToShow[index].artistName
+        return listToShow[index].genreName
     }
 }
