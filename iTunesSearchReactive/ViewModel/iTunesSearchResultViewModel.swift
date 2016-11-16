@@ -11,7 +11,4 @@ import UIKit
 
 class iTunesSearchResultViewModel: iTunesAbstractResultViewModel {
     
-    override init(resultModel : iTunesResult) {
-        super.init(resultModel: resultModel)
-    }
 }

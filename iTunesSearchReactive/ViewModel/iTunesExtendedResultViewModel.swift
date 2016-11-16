@@ -10,10 +10,6 @@ import UIKit
 
 class iTunesExtendedResultViewModel: iTunesAbstractResultViewModel {
     
-    override init(resultModel : iTunesResult) {
-        super.init(resultModel: resultModel)
-    }
-    
     override func filterResults(searchText : String) {
         var filteredResults = Set<iTunesJsonData>()
         for object in resultModel.jsonDataObject {

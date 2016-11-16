@@ -41,7 +41,7 @@ class iTunesAbstractResultViewModel: NSObject {
     func filterResults(searchText : String) {
         var filteredResults = Set<iTunesJsonData>()
         for object in resultModel.jsonDataObject {
-            if (object.artistName.lowercaseString .containsString(searchText.lowercaseString)) {
+            if (object.trackName.lowercaseString .containsString(searchText.lowercaseString)) {
                 filteredResults.insert(object)
             }
         }
