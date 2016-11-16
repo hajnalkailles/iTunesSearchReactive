@@ -9,8 +9,6 @@
 import UIKit
 
 class iTunesExtendedResultViewModel: iTunesAbstractResultViewModel {
-
-    var differentString = ""
     
     override init(resultModel : iTunesResult) {
         super.init(resultModel: resultModel)
