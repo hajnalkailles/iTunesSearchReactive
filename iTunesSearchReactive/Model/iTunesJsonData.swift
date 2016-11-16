@@ -12,20 +12,23 @@ class iTunesJsonData: Equatable, Hashable {
 
     let artistName : String
     let mediaType : String
+    let trackName : String
     
     init() {
         self.artistName = ""
         self.mediaType = ""
+        self.trackName = ""
     }
     
-    init(artistName: String, mediaType: String) {
+    init(artistName: String, mediaType: String, trackName: String) {
         self.artistName = artistName
         self.mediaType = mediaType
+        self.trackName = trackName
     }
 
     var hashValue: Int {
         get {
-            return "\(artistName),\(mediaType)".hashValue
+            return "\(artistName),\(mediaType),\(trackName)".hashValue
         }
     }
 }

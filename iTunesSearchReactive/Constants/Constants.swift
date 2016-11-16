@@ -10,6 +10,7 @@
 
 let mainStoryboardName = "Main"
 let searchResultCellIdentifier = "resultCell"
+let resultTableViewIdentifier = "iTunesSearchResultTableViewController"
 
 // MARK: iTunes Search API constants
 
@@ -20,3 +21,4 @@ let iTunesSearchUrlParameterLimit = "limit="
 let jsonTagResults = "results"
 let jsonTagArtistName = "artistName"
 let jsonTagKind = "kind"
+let jsonTagTrackName = "trackName"

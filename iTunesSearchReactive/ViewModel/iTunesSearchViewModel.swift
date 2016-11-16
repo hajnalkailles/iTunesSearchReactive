@@ -13,7 +13,6 @@ class iTunesSearchViewModel : NSObject {
     
     var searchTerm = ""
     var limit = 0
-    var other = ""
     var executeSearch : RACCommand?
     var validSearchSignal : RACSignal?
     var validLimitSignal : RACSignal?
@@ -50,10 +49,6 @@ class iTunesSearchViewModel : NSObject {
         return searchTerm.characters.count > 3
     }
     
-    private func isOtherValid() -> Bool {
-        return other.lowercaseString.containsString("accept")
-    }
-    
     private func isLimitValid() -> Bool {
         return (limit < 40) && (limit > 0)
     }
@@ -65,8 +60,7 @@ class iTunesSearchViewModel : NSObject {
     private func searchMediaInfo() -> RACSignal {
         return searchService.iTunesSearchSignal(searchTerm, limit: limit).doNextAs {
             (results: iTunesResult) -> () in
-            let viewModel = iTunesSearchResultViewModel(resultModel: results)
-            self.navigationService.pushViewWithViewModel("iTunesSearchResultTableViewController", viewModel: viewModel)
+            self.navigationService.pushViewWithModel(results)
         }
     }
 }

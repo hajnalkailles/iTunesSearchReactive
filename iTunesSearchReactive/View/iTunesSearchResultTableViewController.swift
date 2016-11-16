@@ -11,7 +11,7 @@ import UIKit
 
 class iTunesSearchResultTableViewController : UITableViewController, UISearchBarDelegate {
     
-    var resultViewModel : iTunesSearchResultViewModel
+    var resultViewModel : iTunesAbstractResultViewModel?
     
     @IBOutlet weak var filterBar: UISearchBar!
     
@@ -20,14 +20,17 @@ class iTunesSearchResultTableViewController : UITableViewController, UISearchBar
     }
     
     init(_ coder: NSCoder? = nil) {
-        self.resultViewModel = iTunesSearchResultViewModel()
-        
         if let coder = coder {
             super.init(coder: coder)!
         }
         else {
             super.init(nibName: nil, bundle:nil)
         }
+    }
+    
+    init(resultModel: iTunesSearchResultViewModel) {
+        self.resultViewModel = resultModel
+        super.init(nibName: nil, bundle: nil)
     }
     
     override func viewDidLoad() {
@@ -43,20 +46,20 @@ class iTunesSearchResultTableViewController : UITableViewController, UISearchBar
         // delegate needs to be set after rac_signalForSelector is called or we need an empty implementation of the selector otherwise
         self.filterBar.delegate = self
         
-        resultViewModel.filterSignal?.subscribeNext{ _ in
+        resultViewModel!.filterSignal?.subscribeNext{ _ in
             self.tableView.reloadData()
         }
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return resultViewModel.listToShow.count
+        return resultViewModel!.listToShow.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell  = tableView.dequeueReusableCellWithIdentifier(searchResultCellIdentifier, forIndexPath: indexPath)
         
-        cell.textLabel?.text = self.resultViewModel.listToShow[indexPath.row].artistName
-        cell.detailTextLabel?.text = self.resultViewModel.listToShow[indexPath.row].mediaType
+        cell.textLabel?.text = self.resultViewModel?.cellTitle(indexPath.row)
+        cell.detailTextLabel?.text = self.resultViewModel?.cellSubtitle(indexPath.row)
         cell.detailTextLabel?.textColor = UIColor.grayColor()
         
         return cell

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Typhoon
 import UIKit
 
 class NavigationService: NSObject {
@@ -21,10 +22,10 @@ class NavigationService: NSObject {
         self.navigationController = navigationController
     }
     
-    func pushViewWithViewModel(view: String, viewModel : iTunesSearchResultViewModel) {
+    func pushViewWithModel(resultModel : iTunesResult) {
         let storyBoard : UIStoryboard = UIStoryboard(name: mainStoryboardName, bundle:nil)
-        let nextViewController = storyBoard.instantiateViewControllerWithIdentifier(view) as! iTunesSearchResultTableViewController
-        nextViewController.resultViewModel = viewModel
+        let nextViewController = storyBoard.instantiateViewControllerWithIdentifier(resultTableViewIdentifier) as! iTunesSearchResultTableViewController
+        nextViewController.resultViewModel?.resultModel = resultModel
         self.navigationController.pushViewController(nextViewController, animated: true)
     }
 }
