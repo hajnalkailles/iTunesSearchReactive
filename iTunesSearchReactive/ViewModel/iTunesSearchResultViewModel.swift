@@ -7,7 +7,6 @@
 //
 
 import ReactiveCocoa
-import UIKit
 
 class iTunesSearchResultViewModel: iTunesAbstractResultViewModel {
     

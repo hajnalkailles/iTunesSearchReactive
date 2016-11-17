@@ -6,8 +6,6 @@
 //  Copyright © 2016. Hajnalka Hegyi. All rights reserved.
 //
 
-import UIKit
-
 class iTunesExtendedResultViewModel: iTunesAbstractResultViewModel {
     
     override func filterResults(searchText : String) {
